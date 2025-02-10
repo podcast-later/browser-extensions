@@ -1,0 +1,21 @@
+{
+  "name": "Podcast Later",
+  "description": "Your read-later articles, as a podcast; human-level speech that you'll love to listen to. A browser extension for Podcast Later.",
+  "version": "0.0.3",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "icons": {
+    "16": "icons/logo-16.png",
+    "48": "icons/logo-48.png",
+    "128": "icons/logo-128.png"
+  }
+}

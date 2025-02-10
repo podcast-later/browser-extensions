@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Podcast Later</title>
+    <link rel="stylesheet" href="css/bulma/bulma.min.css"/>
+    <link rel="stylesheet" href="css/popup.css"/>
+</head>
+<body class="hide-scrollbar">
+<section class="section pt-5 pb-5">
+    <div class="container">
+        <!-- Login Section -->
+        <div id="login-section" class="pt-3 pb-0">
+            <a href="https://podcastlater.com" target="_blank">
+                <div class="is-flex is-align-items-center mb-5">
+                    <figure class="image is-32x32 is-inline-block">
+                        <img alt="Logo" src="icons/logo-128.png"/>
+                    </figure>
+                    <h1 class="title is-size-4 is-inline-block ml-2">
+                        Podcast Later
+                    </h1>
+                </div>
+            </a>
+            <div class="field">
+                <div class="control">
+                    <input id="email" class="input is-small" type="email" required placeholder="email"/>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <input id="password" class="input is-small" required type="password" placeholder="password"/>
+                </div>
+            </div>
+
+            <div id="login-error" class="error mb-3"></div>
+
+            <div class="field is-grouped is-grouped-right">
+                <div class="control">
+                    <button id="login-button" class="button is-primary is-small">Log In</button>
+                </div>
+                <div class="control">
+                    <a href="https://podcastlater.com/account/register" target="_blank"
+                       class="button is-info is-small">Register</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Save Section (hidden if not logged in) -->
+        <div id="save-section" class="is-hidden has-text-centered">
+            <a href="https://podcastlater.com" target="_blank">
+                <div class="is-flex is-align-items-center mb-5">
+                    <figure class="image is-32x32 is-inline-block">
+                        <img alt="Logo" src="icons/logo-128.png"/>
+                    </figure>
+                    <h1 class="title is-size-4 is-inline-block ml-2">
+                        Podcast Later
+                    </h1>
+                </div>
+            </a>
+            <h3 class="save-msg">Save this page to your podcast feed</h3>
+            <button id="save-article-button" class="button is-success">Save Page</button>
+            <p id="save-status" class="mt-3"></p>
+        </div>
+    </div>
+</section>
+
+<script src="popup.js"></script>
+</body>
+</html>

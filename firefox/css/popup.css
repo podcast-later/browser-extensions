@@ -1,0 +1,55 @@
+body {
+    background-color: #5aa4d1;
+    /*scrollbar-width: none;*/
+    max-width: 300px;
+}
+
+/*.container {*/
+/*    scrollbar-width: none;*/
+/*}*/
+
+/*section.section {*/
+/*    scrollbar-width: none;*/
+/*}*/
+
+.error {
+    color: #af1b1b;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.save-msg {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.logout a {
+    font-size: 10px;
+    color: gray;
+}
+
+.saved-message {
+    margin-top: 10px;
+}
+
+.saved-message.no-action {
+    color: #555;
+}
+
+.saved-message.success {
+    color: #035003;
+}
+
+
+/*!* Hide scrollbar for Chrome, Safari and Opera *!*/
+/*.hide-scrollbar::-webkit-scrollbar {*/
+/*    display: none;*/
+/*}*/
+
+/*!* Hide scrollbar for IE, Edge and Firefox *!*/
+/*.hide-scrollbar {*/
+/*    -ms-overflow-style: none; !* IE and Edge *!*/
+/*    scrollbar-width: none; !* Firefox *!*/
+/*    overflow: auto; !* Ensure scrolling is still possible *!*/
+/*}*/

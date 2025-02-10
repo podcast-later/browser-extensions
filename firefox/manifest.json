@@ -1,0 +1,30 @@
+{
+  "name": "Podcast Later",
+  "description": "Your read-later articles, as a podcast; human-level speech that you'll love to listen to. A browser extension for the Podcast Later service.",
+  "version": "0.0.2",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "icons": {
+    "16": "icons/logo-16.png",
+    "48": "icons/logo-48.png",
+    "128": "icons/logo-128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "save-for-later@podcastlater.com",
+      "strict_min_version": "125.0"
+    }
+  }
+}

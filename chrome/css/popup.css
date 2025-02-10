@@ -1,0 +1,32 @@
+body {
+    background-color: #5aa4d1;
+}
+
+.error {
+    color: #af1b1b;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.save-msg {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.logout a {
+    font-size: 10px;
+    color: gray;
+}
+
+.saved-message {
+    margin-top: 10px;
+}
+
+.saved-message.no-action {
+    color: #555;
+}
+
+.saved-message.success {
+    color: #035003;
+}
